@@ -1,0 +1,76 @@
+.main-logo img {
+  max-height: 40px;
+}
+
+.theme-switch .form-check-input {
+  width: 60px;
+  height: 30px;
+  padding-right: 0;
+  padding-left: 0;
+  cursor: pointer;
+}
+.theme-switch .form-switch .form-check-input:focus {
+  box-shadow: none;
+  border-color: #bfbfbf;
+  background-image: url(../../assets/images/radio-light.svg);
+  background-size: 40%;
+  background-position-x: 82%;
+}
+.theme-switch .form-switch .form-check-input:checked {
+  background-color: #4fcb8d;
+  border-color: #4fcb8d;
+  background-image: url(../../assets/images/radio-dark.svg);
+  background-size: 31%;
+  background-position-x: 18%;
+}
+
+.lang-select {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.email-content-area .content-right .email-list-wrapper .email-list .list-wrapper .email-list-item .email-list-detail .date {
+  color: #bfbfbf;
+}
+
+.product--img {
+  max-height: 40px;
+  aspect-ratio: 1/1;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.apexcharts-legend-text {
+  color: #bfbfbf !important;
+  padding: 0 6px;
+}
+
+.icon-img-1 {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  background-color: rgba(23, 101, 253, 0.1882352941);
+  border-radius: 12px;
+}
+.icon-img-1 svg {
+  width: 24px;
+  height: 24px;
+}
+.icon-img-1 svg path {
+  fill: #fff !important;
+}
+
+tr {
+  height: 71px !important;
+}
+
+.header-area.is-sticky {
+  z-index: 999999999999;
+}
+
+.leaflet-container {
+  border-radius: 15px;
+}/*# sourceMappingURL=custom.css.map */
